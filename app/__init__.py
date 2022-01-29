@@ -1,12 +1,14 @@
+from dotenv import load_dotenv
 import os
 from db import Database
 
 def create_app():
+    load_dotenv()
     database = Database(
-        "gestor_api_keys",
-        "root",
-        "KORNkorn2402",
-        "localhost"
+        os.environ.get("DATABASE"),
+        os.environ.get("USER"),
+        os.environ.get("PASSWORD"),
+        os.environ.get("HOST")
     )
 
     ask_to_user(database)

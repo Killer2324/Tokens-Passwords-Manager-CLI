@@ -6,18 +6,20 @@ I maked this project because for me and some friends was so complicated save our
 
 ## Installaling Dependencies and Execute the application 🚀
 
-### Instalación 🔧
+### Installation 🔧
 
 #### Install dependencies
-First you will have to execute the **bash script**.
-This script install all dependencies and configurate all for you
-```
-#with virtual enviroment
-sh install_dependencies.sh
+1. First you will have to execute the **bash script**.
+    This script install all dependencies and configurate all for you
+    ```
+    #with virtual enviroment
+    sh install_dependencies.sh
 
-#withouth virtual enviroment
-sh install_dependencies_withouth_venv.sh
-```
+    #withouth virtual enviroment
+    sh install_dependencies_withouth_venv.sh
+    ```
+
+2. Make a database for the storage
 
 ## Execute CLI
 

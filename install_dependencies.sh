@@ -9,6 +9,7 @@ read sys
 
 
 if [[ sys == 'Linux' ]] || [[ sys == 'linux' ]]
+then
     . venv/bin/activate
     echo 'Installing dependencies...'
     pip3 install mariadb

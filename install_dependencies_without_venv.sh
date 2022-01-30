@@ -3,6 +3,7 @@ echo "What is your Operating System? (linux/windows)"
 read sys
 
 if [[ sys == 'Linux' ]] || [[ sys == 'linux' ]]
+then
     echo 'Installing dependencies...'
     pip3 install mariadb
     pip3 install python-dotenv

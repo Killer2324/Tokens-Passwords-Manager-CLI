@@ -1,4 +1,4 @@
-# Api Key Manager
+# Token Password Manager
 
 Token Password Manager is a CLI Application that saves our Tokens and Passwords. For the Database I have choosen MariaDB for the Database.
 

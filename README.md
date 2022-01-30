@@ -4,7 +4,7 @@ Api Key Manager is a CLI Application that saves our API Keys. For the Database I
 
 I maked this project because for me and some friends was so complicated save our all API Keys but you must think, hey you can save it in some notes application or something like that, yeah it is an option to do this, I did it but for us it was very slow and annoying to open an application just to check our API keys instead that with this CLI We can see our all API KEYS with just one command. 
 
-## Installaling Dependencies and Execute the application 🚀
+## Installaling Dependencies and Config the App🚀
 
 ### Installation 🔧
 
@@ -73,3 +73,7 @@ The alias We will permitted execute the app in anywhere of system.
     ```
     $ cli_api
     ```
+
+## Other usages
+The principal function of this app is save the API KEYs but **if you change somethings in the prints of __init__.py and db.py you can use this app for anything**
+Thanks for read this README :)

@@ -70,6 +70,6 @@ The alias We will permitted execute the app in anywhere of system.
 5. Close your terminal
 6. Open your terminal and **set the alias name**
 
-```
-$ cli_api
-```
+    ```
+    $ cli_api
+    ```

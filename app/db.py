@@ -81,3 +81,10 @@ class Database:
         cursor.execute("DELETE FROM passwords")
         
         connection.commit()
+
+    def update_content(self, name, new_content):
+        connection, cursor = self.connect_db()
+
+        cursor.execute(f"UPDATE passwords SET content='{new_content}' WHERE name='{name}'")
+
+        connection.commit()

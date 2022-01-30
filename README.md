@@ -75,5 +75,5 @@ The alias We will permitted execute the app in anywhere of system.
     ```
 
 ## Other usages
-The principal function of this app is save the API KEYs but **if you change somethings in the prints of __init__.py and db.py you can use this app for anything**
-Thanks for read this README :)
+The principal function of this app is save the API KEYs but **if you change somethings in the prints of __init__.py and db.py you can use this app for anything**.<br>
+Thanks for read this README :).

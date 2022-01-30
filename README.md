@@ -7,8 +7,8 @@ Token Password Manager is a CLI Application that saves our Tokens and Passwords.
 ### Installation
 
 #### Install dependencies
-1. First you will have to execute the **bash script**.
-    This script will install all dependencies and configurate all for you
+1. First, You have to execute the **bash script**.
+    This script goint to install all dependencies and configurate all for you
     ```
     #with virtual enviroment
     sh install_dependencies.sh

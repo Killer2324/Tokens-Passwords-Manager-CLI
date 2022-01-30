@@ -74,3 +74,10 @@ class Database:
         for name, content, date in zip(names_list, content_list, dates_list):
             print(f"\n name: {name}\n content: {content} \n date: {date}")
         connection.commit()
+
+    def delete_all(self):
+        connection, cursor = self.connect_db()
+        
+        cursor.execute("DELETE FROM passwords")
+        
+        connection.commit()

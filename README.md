@@ -38,7 +38,7 @@ Token Password Manager is a CLI Application that saves our Tokens and Passwords.
 
 ### Create a alias
 #### Linux users
-Yes, we will create an alias because without this it would be very annoying to go to the folder where the application is located.
+Yes, we going to create an alias because without this it would be very annoying to go to the folder where the application is located.
 The alias We will permitted execute the app in anywhere of system.
 
 1. ```

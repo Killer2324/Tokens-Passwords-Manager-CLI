@@ -38,9 +38,9 @@ class Database:
     
     def insert(self, name, content):
         connection, cursor = self.connect_db()
-        cursor.execute(f"INSERT INTO api_key VALUES (null, '{name}', '{content}', CURTIME())")
+        cursor.execute(f"INSERT INTO passwords VALUES (null, '{name}', '{content}', CURTIME())")
         connection.commit()
-        print("Perfect, Your API KEY have been registered")
+        print("Perfect, Your Password have been registered")
 
     def show(self):
         connection, cursor = self.connect_db()
@@ -49,13 +49,13 @@ class Database:
         content_list = []
         dates_list = []
 
-        cursor.execute("SELECT name FROM api_key")
+        cursor.execute("SELECT name FROM passwords")
         names = cursor.fetchall()
         
-        cursor.execute("SELECT content FROM api_key")
+        cursor.execute("SELECT content FROM passwords")
         contents = cursor.fetchall()
 
-        cursor.execute("SELECT created_at FROM api_key")
+        cursor.execute("SELECT created_at FROM passwords")
         dates = cursor.fetchall()
 
         for name in names:

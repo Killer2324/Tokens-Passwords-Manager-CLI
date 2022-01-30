@@ -1,5 +1,5 @@
 instruction = """
-    CREATE TABLE IF NOT EXISTS api_key (
+    CREATE TABLE IF NOT EXISTS passwords (
         id int(255) auto_increment not null,
         name varchar(255) not null,
         content TEXT not null,

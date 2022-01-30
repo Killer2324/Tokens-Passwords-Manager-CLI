@@ -17,13 +17,13 @@ def create_app():
 def ask_to_user(database):
     print("Hi, I'm your assistant.")
     print("\nOptions:")
-    print("\n 1. Insert a new API KEY")
-    print("\n 2. See my API KEYS")
+    print("\n 1. Insert a new Password or Token")
+    print("\n 2. See my Tokens/Passwords")
     query = input("Choose one: ")
 
     if (query == '1'):
-        name = input("API Name: ")
-        content = input("API Content: ")
+        name = input("Password/Token Name: ")
+        content = input("Password/Token Content: ")
         insert_to_db(database, name, content)
     else:
         show_keys(database)

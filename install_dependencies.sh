@@ -22,3 +22,5 @@ else
 fi
 
 echo 'The installation finished. now You can delete this script'
+
+exit 0
